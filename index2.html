@@ -3,14 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
 <body>
-    <audio controls>
-        <source src="horse.ogv" type="audio/mpeg">
-    </audio>
-    <video controls>
-        <source src="movie (3).mp4" type="video/mp4">
-    </video>
+
+    <h2>Registration Form</h2>
+        <!-- Name  -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" >
+        <br><br>
+
+        <!-- Email  -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="email">
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="8">
+        <br><br>
+
+        <!-- Date of Birth-->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" >
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+
 </body>
 </html>
